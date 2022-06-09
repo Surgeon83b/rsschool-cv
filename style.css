@@ -1,0 +1,24 @@
+header {
+  max-width: 100%;
+  background-color:gainsboro;
+  color:grey
+}
+
+h1 {
+  background-color: #7b68ee;
+  color: mintcream;
+}
+
+h2 {
+  background-color:chartreuse;
+}
+
+h3 {
+  background-color: #7b68ee;
+}
+
+ul, ol{
+  background-color: burlywood;
+  font-size: 20px;
+  list-style-position: inside;
+}
