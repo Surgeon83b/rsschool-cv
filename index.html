@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CV. Kanstantsin Piatkevich</title>
+  <style>
+    span {
+      background-color: purple;
+      margin: 2px 0 2px;
+      padding: 2px 0 2px;
+      color: seashell;
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+<body
+  style="max-width: 50%; margin: auto; width: 50%; background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-vector-abstract-color-waves-design-element-color-smoke-isolated-picture-image_991166.jpg); background-size: cover">
+  <header>
+    <nav style="font-size: 16pt">
+      <ul style="display: flex; flex-direction: row; justify-content:space-evenly; list-style-type: none">
+        <li style="background-color: orange;"><a href="#contacts">Contacts</a></li>
+        <li style="background-color: orange;"><a href="#experience">Experience</a></li>
+        <li style="background-color: orange;"><a href="#education">Education</a></li>
+        <li style="background-color: orange;"><a href="#self-education">Self-education</a></li>
+        <li style="background-color: orange;"><a href="#tech_stack">Tech stack</a></li>
+        <li style="background-color: orange;"><a href="#languages">Languages</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div style="text-align:center; display:block">
+    <h1>Kanstantsin Piatkevich</h1>
+    <a href="https://imgbb.com/"><img src="https://i.ibb.co/61Xt2XW/res.png" alt="avatar"></a>
+    <h1>Javascript(React) developer</h1>
+    <h2 id="contacts">CONTACTS</h2>
+    <ul>
+      <li>phone, telegram, viber: <b>+375447977831</b></li>
+      <li>e-mail: <b>surgeon-2@tut.by</b></li>
+      <li>Discord - <b>kanstantsin.piatkevich#1103</b></li>
+    </ul>
+    <h2 id="experience">EXPERIENCE</h2>
+    <ul>
+      <li>February 2009 — August 2016 <b>Junior researcher</b> at the Institute for Nature Management of the National
+        Academy
+        of Sciences
+        of Belarus (numerical modeling using Delphi)</li>
+      <li>February — August 2014 <b>Programmer</b> at JSC Belgorkhimprom (numerical modeling using Delphi and ANSYS)
+      </li>
+      <li>April 2013 — September 2018 <b>Nutrition Consultant</b> as an Independent Partner of Herbalife Nutrition</li>
+      <li>April 2019 — until now <b>Storekeeper</b> at ALC “Farmin” Pharmacy Warehouse</li>
+    </ul>
+    <h2 id="education">EDUCATION</h2>
+    <ul>
+      <li>2001 - 2008: <b>Belarussian State University</b>, Minsk, Belarus
+        <ul>
+          <li><b>Faculty of Applied Mathematics and Informatics</b> (had an experience with C++)</li>
+          <li>Specialty: Applied Mathematics</li>
+          <li>Diploma qualification: Math-programmer</li>
+          <li>Av. score: 8.5</li>
+        </ul>
+      </li>
+      <li>2009-2012: <b>Graduate school at the Institute for Nature Management of the National Academy of Sciences of
+          Belarus</b>, Minsk, Belarus
+        <ul>
+          <li>Specialty: Geoecology</li>
+          <li>Diploma qualification: Technical science researcher</li>
+        </ul>
+      </li>
+      <li>2019 JSC “Adukar” <b>«IT Project Management (Assistant)»</b> course completion certificate №192391 from
+        29.11.2019
+      </li>
+    </ul>
+    <h2 id="self-education">SELF-EDUCATION</h2>
+    <h3>Code example</h3>
+    <div style="text-align: left;">
+      <pre>
+      <code>
+        export const MySelect: React.FC&lt;MySelectProps&gt; = 
+        ({ shown, handleChange }) => {
+          return (
+            &lt;select className="todoOptions" value={shown} onChange={handleChange}&gt;
+            &lt;option key="1" value="active"&gt;активные&lt;/option&gt;
+            &lt;option key="2" value="completed"&gt;завершённые&lt;/option&gt;
+            &lt;option key="3" value="deleted"&gt;удалённые&lt;/option&gt;
+            &lt;/select&gt;
+          )
+        }
+      </code>
+    </pre>
+    </div>
+
+    <h3>Pet projects</h3>
+    <p>December 2021 — March 2022</p>
+    <ol>
+      <li><a href="https://github.com/Surgeon83b/TODO_React-Redux-TS">TODO-React</a></li>
+      <li><a href="https://github.com/Surgeon83b/Catalog">Catalog-Cosmetics</a></li>
+    </ol>
+    <h2 id="tech_stack">TECH STACK</h2>
+    <div style="background-color:pink ">
+      <span>Git</span>
+      <span>HTML/CSS</span>
+      <span>Javascript</span>
+      <span>React.js (Hooks, Context)</span>
+      <span>Redux</span>
+      <span>npm</span>
+    </div>
+    <h2 id="languages">LANGUAGES</h2>
+    <ul>
+      <li>English: A2 -> B1</li>
+    </ul>
+  </div>
+  <footer style="background-color:gainsboro; color:grey;">
+    <nav style="font-size: 18pt;">
+      <ul style="display: flex; flex-direction: row; justify-content:space-evenly; list-style-type: none;">
+        <li style="background-color: orange;"><a href="https://github.com/Surgeon83b">MyGitHub</a></li>
+        <li style="background-color: orange;">2022</li>
+        <li style="background-color: orange;"><a href="https://rs.school/js/"><img
+              src="https://rs.school/images/rs_school_js.svg" alt="logo" width="60"></a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+
+</html>
