@@ -1,4 +1,12 @@
-header {
+body {
+  max-width: 50%;
+  margin: auto;
+  width: 50%;
+  background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-vector-abstract-color-waves-design-element-color-smoke-isolated-picture-image_991166.jpg);
+   background-size: cover;
+}
+
+header{
   max-width: 100%;
   background-color:gainsboro;
   color:grey
@@ -21,4 +29,33 @@ ul, ol{
   background-color: burlywood;
   font-size: 20px;
   list-style-position: inside;
+}
+
+nav {
+  font-size: 16pt;
+}
+
+.header, footer nav ul  {
+  display: flex;
+  flex-direction: row;
+   justify-content:space-evenly;
+   list-style-type: none;
+}
+
+.header li, .footer li {
+  background-color: orange;
+}
+
+.main {
+  text-align:center;
+  display:block;
+}
+
+.footer {
+  background-color:gainsboro;
+  color:grey;
+}
+
+.footer nav {
+  font-size: 18pt;
 }
