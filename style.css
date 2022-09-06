@@ -59,3 +59,11 @@ nav {
 .footer nav {
   font-size: 18pt;
 }
+
+.code {
+  text-align: left;
+}
+
+#tech_stack div {
+  background-color:pink;
+}
